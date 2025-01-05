@@ -72,3 +72,27 @@ A fully responsive React landing page built with Parcel and Tailwind CSS, featur
 1. Clone the repository
 ```bash
 git clone https://github.com/Rohitkamble6458/Collbios.git
+```
+
+### Project Project Structure
+``` bash
+my-react-app/
+├── src/
+│   ├── components/
+│   │   ├── NavBar.js
+│   │   ├── Header.js
+│   │   ├── Section.js
+│   │   ├── Features.js
+│   │   ├── Testimonials.js
+│   │   ├── Join.js
+│   │   ├── Contact.js
+│   │   └── Footer.js
+│   ├── index.html
+│   ├── index.js
+│   ├── App.js
+│   └── styles.css
+├── package.json
+├── .gitignore
+└── README.md
+```
+

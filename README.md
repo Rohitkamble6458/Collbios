@@ -29,3 +29,17 @@ A responsive React web application built with Parcel and Tailwind CSS, featuring
 1. Clone the repository
 ```bash
 git clone https://github.com/Rohitkamble6458/Collbios.git
+
+### Project Structure
+
+my-react-app/
+├── src/
+│   ├── components/
+│   │   └── NavBar.js
+│   ├── index.html
+│   ├── index.js
+│   ├── App.js
+│   └── styles.css
+├── package.json
+├── .gitignore
+└── README.md

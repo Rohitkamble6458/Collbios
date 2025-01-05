@@ -74,7 +74,7 @@ A fully responsive React landing page built with Parcel and Tailwind CSS, featur
 git clone https://github.com/Rohitkamble6458/Collbios.git
 ```
 
-### Project Project Structure
+## 📂 Project Structure
 ``` bash
 my-react-app/
 ├── src/
@@ -95,4 +95,38 @@ my-react-app/
 ├── .gitignore
 └── README.md
 ```
+## 💻 Development
+Running the Development Server
+
+``` bash
+npm start
+```
+
+### Building for Production
+```bash
+npm run build
+```
+## 🤝 Contributing
+
+Fork the project
+Create your feature branch (git checkout -b feature/AmazingFeature)
+Commit your changes (git commit -m 'Add some AmazingFeature')
+Push to the branch (git push origin feature/AmazingFeature)
+Open a Pull Request
+
+### 📝 License
+This project is licensed under the MIT License - see the LICENSE.md file for details
+### 👤 Author
+
+### Rohit Kamble - GitHub Profile
+
+## 🔮 Future Enhancements
+
+- Dark mode support
+- Multi-language support
+- Advanced animations
+- Performance optimizations
+- Enhanced accessibility
+
+
 

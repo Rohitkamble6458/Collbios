@@ -1,26 +1,28 @@
 {
   "name": "my-react-app",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "A React app deployed on GitHub Pages",
+  "main": "src/index.html",
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "build": "parcel build src/index.html",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
+  "homepage": "https://rohitkamble6458.github.io/Collbios",
   "keywords": [],
-  "author": "",
+  "author": "Rohit Kamble",
   "license": "ISC",
-  "description": "",
   "devDependencies": {
-    "autoprefixer": "^10.4.20",
-    "install": "^0.13.0",
-    "npm": "^11.0.0",
     "parcel": "^2.13.3",
+    "gh-pages": "^6.3.0",
+    "autoprefixer": "^10.4.20",
     "postcss": "^8.4.49",
-    "process": "^0.11.10",
-    "tailwindcss": "^3.4.17"
+    "tailwindcss": "^3.4.17",
+    "parcel-reporter-static-files-copy": "^1.5.3"
   },
   "dependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
